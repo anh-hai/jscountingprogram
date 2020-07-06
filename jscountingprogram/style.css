@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+body{
+	background-image: url('https://images.unsplash.com/photo-1580432551600-8c9768628a9e?ixlib=rb-1.2.1&w=1000&q=80');
+	background-attachment: scroll;
+	background-size: stretch;
+}
+
+div#background{
+	position: relative;
+	min-height: 100vh;
+	height: 100%;
+	width: 750px;
+	margin: auto;
+	background-image: linear-gradient(#3498db, #34495e);
+}
+
+div.main{
+	position: relative;
+	padding-top: 5%;
+}
+
+h4#AskName{
+	position: absolute;
+	margin-left: 23%;
+}
+
+h4#AskNum{
+	margin-left: 51%;
+}
+
+div.js{
+	margin-top: 0.5%;
+	display: flex;
+	justify-content: center;
+}
+
+div.numbers{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
